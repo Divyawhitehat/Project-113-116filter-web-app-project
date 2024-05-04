@@ -1,0 +1,23 @@
+h3
+{
+    font-size: 25px;
+}
+
+.btn-success:hover
+{
+    background: red;
+}
+
+canvas 
+{
+    animation-name: divi;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    border: 10px;
+}
+
+@keyframes divi 
+{
+    from {box-shadow: 1px 1px 38px red;}
+    to {box-shadow: 1px 1px 38px yellow;}
+}
